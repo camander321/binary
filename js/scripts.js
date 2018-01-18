@@ -37,9 +37,10 @@ function russWay(base, lump) {
 
 
 $(document).ready(function() {
-  // var base = prompt("Enter a Base...")
-  // var number = prompt("Enter a Number...")
+  //should check input
+  var base = prompt("Enter a Base...");
+  var number = prompt("Enter a Number...");
 
-  alert(camsWay(16, 255));
-  alert(russWay(16, 255));
+  alert(camsWay(base, number));
+  alert(russWay(base, number));
 });
